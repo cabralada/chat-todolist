@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #dedede;
+}
+
+.chat{
+  height: 100vh;
+}
+
+.empty {
+  display: none;
+}
+
+.empty + div:before {display: none}
+
+.editMsg {
+  background: white;
+  border: 5px solid #303f9f !important
+}
